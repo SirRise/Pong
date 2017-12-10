@@ -3,9 +3,9 @@ function Ball() {
     this.x = width/2;
     this.y = height/2;
     this.s = 15;
-    this.hv = -4;
+    this.hv = -6;
     this.vv = random(-6, 6);
-    this.lit = 20;
+    this.lit = 2;
 
     this.show = function() {
         noStroke();
